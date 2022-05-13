@@ -1,0 +1,16 @@
+{
+  "name": "alert",
+  "scripts": {
+    "test": "cypress run",
+    "cypress": "npx cypress open"
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.3",
+    "cypress": "^9.6.1",
+    "esbuild": "^0.14.30"
+  }
+}
